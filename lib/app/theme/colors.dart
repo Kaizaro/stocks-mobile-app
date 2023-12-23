@@ -1,0 +1,35 @@
+class Color {
+  static const white = '#FFFFFF';
+  static const black = '#000000';
+  static const coloredTealAccent = '#4AAABA';
+  static const coloredTealDark = '#297E8F';
+  static const coloredTealLight = '#E1F6FA';
+  static const coloredGreen = '#A2E054';
+  static const coloredGreenLight = '#F1FAE5';
+  static const coloredBlue = '#44A1DD';
+  static const coloredBlueLight = '#F1FAE5';
+  static const coloredOrange = '#FA8E51';
+  static const coloredOrangeLight = '#FFEDE0';
+  static const coloredPurple = '#A093FC';
+  static const coloredPurpleLight = '#F1EFFF';
+  static const coloredDarkPurple = '#746FDE';
+  static const coloredDarkBlue = '#2E71B4';
+  static const coloredDarkBlueLight = '#E9F1FA';
+  static const statusGreen = '#53C788';
+  static const statusGreenLight = '#EAF8F1';
+  static const statusRed = '#FB6768';
+  static const statusRedLight = '#FFEFEF';
+  static const statusYellow = '#F4C958';
+  static const statusYellowDark = '#E2B02B';
+  static const statusYellowLight = '#FEF8E8';
+  static const monochromeBlackPrimary = '#48535E';
+  static const monochromeBlackLight = '#5B656E';
+  static const monochromeGray1 = '#868686';
+  static const monochromeGray2 = '#C4C4C4';
+  static const monochromeGray3 = '#C3C7CE';
+  static const monochromeBackground = '#F3F5F6';
+  static const monochromeWhite = '#FFFFFF';
+  static const textBlack = '#343E48';
+  static const textSecondary = '##868686';
+  static const textWhite = '#FFFFFF';
+}
