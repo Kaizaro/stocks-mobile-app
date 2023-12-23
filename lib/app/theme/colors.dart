@@ -32,4 +32,5 @@ class Color {
   static const textBlack = '#343E48';
   static const textSecondary = '##868686';
   static const textWhite = '#FFFFFF';
+  static const textWhite2 = '#FFFFFF';
 }
