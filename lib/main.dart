@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      routes: {
+        '/': (_) => const MyHomePage(title: 'Flutter Demo Home Page'),
+        '/list': (context) => const MyHomePage(title: 'List Page'),
+      },
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -33,7 +37,6 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Inter',
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
