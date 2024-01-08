@@ -22,7 +22,7 @@ class Body14 extends StatelessWidget {
         fontFamily: 'Poppins',
         fontSize: 14,
         fontWeight: FontWeight.w400,
-        color: Color.fromARGB(52, 62, 72, 1),
+        color: Color.fromRGBO(52, 62, 72, 1),
         // letterSpacing: 14 * 1.15,
         height: 14 * 1.3,
       ),

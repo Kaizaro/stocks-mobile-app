@@ -22,7 +22,7 @@ class StoriesText extends StatelessWidget {
         fontFamily: 'Poppins',
         fontSize: 9,
         fontWeight: FontWeight.w400,
-        color: Color.fromARGB(52, 62, 72, 1),
+        color: Color.fromRGBO(52, 62, 72, 1),
         height: 9 * 1.15,
       ),
     );

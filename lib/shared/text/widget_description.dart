@@ -22,7 +22,7 @@ class WidgetDescription extends StatelessWidget {
         fontFamily: 'Poppins',
         fontSize: 12,
         fontWeight: FontWeight.w300,
-        color: Color.fromARGB(52, 62, 72, 1),
+        color: Color.fromRGBO(52, 62, 72, 1),
         // letterSpacing: 12 * 1.2,
         height: 12 * 1.2,
       ),

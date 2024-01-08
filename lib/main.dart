@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:stocks_app/app/theme/theme.dart';
+import 'package:stocks_app/shared/text/heading_1.dart';
+import 'package:stocks_app/shared/text/text.dart';
+
+import 'shared/shared.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +37,8 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.coloredTealAccent),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: AppColors.coloredTealAccent),
         fontFamily: 'Inter',
         useMaterial3: true,
       ),
@@ -89,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: SubtitlesText(text: widget.title),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -110,6 +115,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            ButtonPrimary(
+              text: 'Go to List Page',
+              onPressed: () {
+                print('Button pressed');
+              },
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),

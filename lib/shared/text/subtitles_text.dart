@@ -22,7 +22,7 @@ class SubtitlesText extends StatelessWidget {
         fontFamily: 'Poppins',
         fontSize: 11,
         fontWeight: FontWeight.w400,
-        color: Color.fromARGB(52, 62, 72, 1),
+        color: Color.fromRGBO(52, 62, 72, 1),
         letterSpacing: 0.22,
         height: 11 * 1.2,
       ),

@@ -22,7 +22,7 @@ class Heading4 extends StatelessWidget {
         fontFamily: 'Poppins',
         fontSize: 16,
         fontWeight: FontWeight.w400,
-        color: Color.fromARGB(52, 62, 72, 1),
+        color: Color.fromRGBO(52, 62, 72, 1),
         // letterSpacing: 16 * 1.2,
         height: 16 * 1.3,
       ),
