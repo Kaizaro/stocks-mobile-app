@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stocks_app/app/theme/theme.dart';
-import 'package:stocks_app/shared/text/heading_1.dart';
-import 'package:stocks_app/shared/text/text.dart';
+import 'package:stocks_app/modules/stocks/ui/screens/stocks_list/stocks_list.dart';
 
 import 'shared/shared.dart';
 
@@ -16,10 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Stocks App',
       routes: {
         '/': (_) => const MyHomePage(title: 'Flutter Demo Home Page'),
-        '/list': (context) => const MyHomePage(title: 'List Page'),
+        '/list': (context) => const StocksListScreen(title: 'Stocks List'),
       },
       theme: ThemeData(
         // This is the theme of your application.
@@ -115,11 +114,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            ButtonPrimary(
-              text: 'Go to List Page',
-              onPressed: () {
-                print('Button pressed');
-              },
+            HorizontalContainer(
+              child: ButtonPrimary(
+                text: 'Go to List Page',
+                onPressed: () {
+                  Navigator.pushNamed(context, '/list');
+                  print('Button pressed');
+                },
+              )
             ),
             const Text(
               'You have pushed the button this many times:',

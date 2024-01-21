@@ -21,7 +21,8 @@ class ButtonPrimary extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 fixedSize: const Size.fromHeight(45.0),
                 backgroundColor: const Color.fromRGBO(72, 83, 94, 1),
-                disabledBackgroundColor: const Color.fromRGBO(72, 83, 94, 1),
+                foregroundColor: const Color.fromRGBO(91, 101, 110, 1),
+                disabledBackgroundColor: const Color.fromRGBO(195, 199, 206, 1),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
